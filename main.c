@@ -15,7 +15,7 @@ int main(void) { //declares main function
   //asks how tall you are in inches
   scanf("%d", &inches); //accepts user input and formats it as integer
   
-  height = feet/12; //converts feet to inches
+  height = feet*12; //converts feet to inches
   height += inches; //adds the inches
   
   printf("Feet: %d", feet); //prints feet
